@@ -16,6 +16,11 @@
 		8B7610A61D83ABD200919422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7610A41D83ABD200919422 /* LaunchScreen.storyboard */; };
 		8B7610B11D83ABD200919422 /* OrbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7610B01D83ABD200919422 /* OrbitTests.swift */; };
 		8B7610BC1D83ABD200919422 /* OrbitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7610BB1D83ABD200919422 /* OrbitUITests.swift */; };
+		8B9B93F71D8A646400A38962 /* Tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B93F61D8A646400A38962 /* Tap.mp3 */; };
+		8B9CAEFB1D88A0F9002A8334 /* Dust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8B9CAEFA1D88A0F9002A8334 /* Dust.sks */; };
+		8B9CAF091D88A7DB002A8334 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9CAF071D88A7DB002A8334 /* spark.png */; };
+		8BBE8A801D879475008DBEB9 /* Comet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8BBE8A7F1D879475008DBEB9 /* Comet.sks */; };
+		8BBE8A841D879A24008DBEB9 /* Sun.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8BBE8A831D879A24008DBEB9 /* Sun.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		8B7610B71D83ABD200919422 /* OrbitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7610BB1D83ABD200919422 /* OrbitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitUITests.swift; sourceTree = "<group>"; };
 		8B7610BD1D83ABD200919422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9B93F61D8A646400A38962 /* Tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tap.mp3; path = ../../../../Desktop/Tap.mp3; sourceTree = "<group>"; };
+		8B9CAEFA1D88A0F9002A8334 /* Dust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Dust.sks; sourceTree = "<group>"; };
+		8B9CAF071D88A7DB002A8334 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		8BBE8A7F1D879475008DBEB9 /* Comet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Comet.sks; sourceTree = "<group>"; };
+		8BBE8A831D879A24008DBEB9 /* Sun.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Sun.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +113,15 @@
 			children = (
 				8B7610971D83ABD200919422 /* AppDelegate.swift */,
 				8B7610991D83ABD200919422 /* GameScene.sks */,
+				8BBE8A7F1D879475008DBEB9 /* Comet.sks */,
+				8B9CAEFA1D88A0F9002A8334 /* Dust.sks */,
+				8BBE8A831D879A24008DBEB9 /* Sun.sks */,
+				8B9CAF071D88A7DB002A8334 /* spark.png */,
 				8B76109B1D83ABD200919422 /* GameScene.swift */,
 				8B76109D1D83ABD200919422 /* GameViewController.swift */,
 				8B76109F1D83ABD200919422 /* Main.storyboard */,
 				8B7610A21D83ABD200919422 /* Assets.xcassets */,
+				8B9B93F61D8A646400A38962 /* Tap.mp3 */,
 				8B7610A41D83ABD200919422 /* LaunchScreen.storyboard */,
 				8B7610A71D83ABD200919422 /* Info.plist */,
 			);
@@ -239,10 +254,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BBE8A801D879475008DBEB9 /* Comet.sks in Resources */,
+				8B9CAF091D88A7DB002A8334 /* spark.png in Resources */,
 				8B76109A1D83ABD200919422 /* GameScene.sks in Resources */,
 				8B7610A61D83ABD200919422 /* LaunchScreen.storyboard in Resources */,
+				8BBE8A841D879A24008DBEB9 /* Sun.sks in Resources */,
 				8B7610A31D83ABD200919422 /* Assets.xcassets in Resources */,
+				8B9B93F71D8A646400A38962 /* Tap.mp3 in Resources */,
 				8B7610A11D83ABD200919422 /* Main.storyboard in Resources */,
+				8B9CAEFB1D88A0F9002A8334 /* Dust.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
